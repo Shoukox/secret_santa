@@ -1,0 +1,59 @@
+.inputField {
+    display: flex;
+    justify-content: center;
+}
+.participants_list__header{
+    font-size: 50px;
+    font-weight: bold;
+    letter-spacing: 5px;
+}
+.participiants_list {
+    background-color: rgba(255, 255, 255, 0.7);
+    border-radius: 10px;
+    padding: 20px;
+    margin: 30px 0;
+
+    box-shadow: 8px 0px 20px black;
+
+    word-wrap:break-word;
+    word-break:break-all;
+}
+.participiant_single {
+    display: block;
+    background-color: rgba(255, 255, 255, 0.8);
+    border-radius: 15px;
+    padding: 20px;
+    margin: 30px 0;
+    display: flex;
+    justify-content: space-between;
+}
+
+.participiant_single__text{
+    font-size: 32px;
+    color: red;
+}
+
+.startButton{
+    width: 100px;
+    align-self: center;
+}
+
+.indexText{
+    font-size: 0.75em;
+    color: black;
+}
+
+@media (max-width: 640px) {
+    .participiants_list {
+        justify-content: center;
+    }
+}
+@media (max-width: 450px) {
+    .participants_list__header {
+        font-size: 30px;
+    }
+    .participiant_single__text{
+        font-size: 16px;
+        color: red;
+    }
+}

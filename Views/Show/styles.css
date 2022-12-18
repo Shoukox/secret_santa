@@ -1,0 +1,53 @@
+
+.infoWindow {
+    min-height: 40vh;
+    font-size: 32px;
+    font-weight: 600;
+
+    border: 5px dotted red;
+    padding: 30px;
+
+    background: url("/src/images/Van.jpg");
+    background-size: 100% 100%;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+
+    text-align: center;
+    vertical-align: middle;
+
+    box-shadow: 0px 0px 30px 5px white;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.text{
+    color:white;
+}
+
+.red {
+    color: rgb(225, 0, 0);
+}
+
+.gachiColor {
+    color: rgb(0, 200, 50);
+}
+
+.littleText {
+    font-size: 0.5em;
+    color: rgba(255, 255, 255, 0.5);
+}
+.bigText{
+    font-size: 2em;
+}
+
+@media (max-width: 450px){
+    .infoWindow{
+        font-size: 20px;
+    }
+    .bigText{
+        font-size: 1.75em;
+    }
+}
